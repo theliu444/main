@@ -188,11 +188,11 @@ body{
 .nav{
     width: 50%;
 }
-.logo{
+.header .logo{
     margin-left: 10px;
     width: 180px;
 }
-.logo img{
+.header .logo img{
     width: 100%;
 }
 .menu {
@@ -429,12 +429,19 @@ a{
     #header_mobile{
         display: block;
     }
-
+    
     .modal-content{
-        max-width: 90%;
+        max-width: 85%;
     }
     .modal-dialog {
         margin: 50px 0;
+    }
+
+    .modal-body {
+        padding: 0 10px;
+    }
+    .modal-body .modal-section .doz-row {
+        padding: 10px 0;
     }
 }
 @media(max-width: 600px){}
